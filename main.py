@@ -14,7 +14,7 @@ while True:
     except ImportError:
         print("ALL MODULES NOT INSTALLED")
     #font colours and background    
-    tech = cprint(figlet_format('TECHSHOW', font='slant'),
+    tech = cprint(figlet_format('EVENTS', font='slant'),
            'yellow', 'on_red', attrs=['bold'])
     feed = cprint(figlet_format('FEEDBACK', font='slant'),
            'yellow', 'on_red', attrs=['bold'])
